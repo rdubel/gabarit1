@@ -100,3 +100,11 @@ main {
     font-size: 10px;
     margin-left: 11em;
 }
+
+button {
+background-color: white;
+border-radius: 5px;
+display: block;
+margin-top: 1em;
+border-width: thin;
+}
