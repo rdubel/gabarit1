@@ -1,11 +1,10 @@
 body {
-    width: 1200px;
-    margin-left: 3em;
+
 }
 
 header {
     background-color: black;
-    height: 3.5em;
+    height: 5em;
 }
 
 .navlist {
@@ -13,7 +12,7 @@ header {
     padding: 0px;
     float: left;
     width: 70%;
-    margin-top: 1em;
+    margin-top: 2em;
 }
 
 .navlist li a:hover {
@@ -25,14 +24,22 @@ header {
     color: grey;
 }
 
-.sec1 {
-    margin-top: 2em;
+main {
+    width: 1200;
+    margin-left: 5em;
 }
 
-div {
+.sec1 {
+    border-bottom: 1px solid #a6a6a6;
+    height: 17em;
+    margin-top: 2em;
+    width: 96%;
+}
 
-    width: 12%;
+.headiv {
     float: left;
+    margin-left: 5em;
+    width: 12%;
 }
 
 .navlist li {
@@ -43,7 +50,7 @@ div {
 
 .logo {
 
-    margin-top: 0px;
+    margin-top: 1em;
 
 }
 
@@ -51,18 +58,45 @@ div {
     display: inline-block;
     width: 25%;
     padding : 2em;
+
 }
 .image1 {
     border-radius: 5px;
     float: left;
+
 }
 
 .sec1 {
     display: inline-block;
 }
 
+.bt1 {
+    background-color: rgb(44, 101, 176);
+    margin-top: 1em;
+    border-radius: 5px;
+    color: white;
+}
+
 .art1 {
     width: 30%;
     float: left;
     margin-left: 3em;
+}
+
+.p1 {
+    background-color: rgb(218, 218, 218);
+    text-align: center;
+    width: 94%;
+    border-width: 1px;
+    border-color: rgb(144, 144, 144);
+    border-style: inset;
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.3) inset;
+    border-radius: 5px;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.foot {
+    font-size: 10px;
+    margin-left: 11em;
 }
